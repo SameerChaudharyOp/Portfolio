@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com"; // Import EmailJS
 import "../Contact/Contact.css";
-import profilePhoto from "../../assets/sde.webp";
+import profilePhoto from "../../assets/webdev.jpg";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -44,9 +44,12 @@ function Contact() {
   };
 
   return (
-    <div className="p-8 min-h-screen flex flex-col items-center justify-between ">
+    <div
+      id="contact-section"
+      className="p-8 min-h-screen flex flex-col items-center justify-between "
+    >
       {/* Center Heading */}
-      <h1 className="text-4xl font-bold mb-6 text-center  text-green-400 ">
+      <h1 className="text-4xl font-bold mb-8 text-center  text-green-400 ">
         Looking for a freelancer? Contact me!
       </h1>
 

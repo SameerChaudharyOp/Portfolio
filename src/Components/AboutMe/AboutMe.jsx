@@ -3,8 +3,8 @@ import profilePhoto from "../../assets/mypic2.jpeg";
 
 function AboutMe() {
   return (
-    <div className="p-8 bg-light-bg dark:bg-dark-bg min-h-screen">
-      <h1 className="text-4xl font-bold mb-6 text-center text-green-400  ">
+    <div id="about-section" className="p-8 bg-light-bg dark:bg-dark-bg min-h-screen">
+      <h1 className="text-4xl font-bold mb-8 text-center text-green-400  ">
         About Me
       </h1>
 
